@@ -2,7 +2,7 @@
     let ctx;
     let canvasExist = false;
     const cellSize = 20;
-    const color = ["LavenderBlush","AliceBlue","AntiqueWhite","Aquamarine","BlueViolet","Coral","DarkOliveGreen","DarkSalmon","DeepPink","FireBrick","Gold","GoldenRod","HoneyDew","HotPink","IndianRed","OrangeRed","LightSalmon","LightCoral","LemonChiffon","Lavender"];
+    const colors = ["LavenderBlush","AliceBlue","AntiqueWhite","Aquamarine","BlueViolet","Coral","DarkOliveGreen","DarkSalmon","DeepPink","FireBrick","Gold","GoldenRod","HoneyDew","HotPink","IndianRed","OrangeRed","LightSalmon","LightCoral","LemonChiffon","Lavender"];
     //const colors = ["red", "green", "blue", "yellow", "purple"];
 
     const btnCan = document.getElementById("can");
