@@ -8,7 +8,7 @@ canvas.height = height;
 
 const ctx = canvas.getContext("2d");
 
-// Draw canvas border
+
 ctx.beginPath();
 ctx.rect(0, 0, width, height);
 ctx.strokeStyle = "black";
@@ -17,7 +17,7 @@ ctx.closePath();
 
 let isMouseDown = false;
 
-// Detect mouse press
+
 canvas.addEventListener("mousedown", () => {
   isMouseDown = true;
 });
@@ -26,12 +26,12 @@ canvas.addEventListener("mouseup", () => {
   isMouseDown = false;
 });
 
-// Optional: stop drawing if mouse leaves canvas
+
 canvas.addEventListener("mouseleave", () => {
   isMouseDown = false;
 });
 
-// Draw when mouse moves and is pressed
+
 document.addEventListener("mousemove", function (event) {
   const rect = canvas.getBoundingClientRect();
   const mouseX = event.clientX - rect.left;
